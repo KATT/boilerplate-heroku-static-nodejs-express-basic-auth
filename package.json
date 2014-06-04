@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.4.1",
+    "passport-http": "^0.2.2",
+    "passport": "^0.2.0"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
