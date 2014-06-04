@@ -17,6 +17,7 @@ passport.use(new BasicStrategy({},
 var app = express();
 
 app.use(passport.initialize());
+// comment/remove this line below to disable auth
 app.use(passport.authenticate('basic', { session: false }));
 app.use(express.static(__dirname + '/public'));;
 
